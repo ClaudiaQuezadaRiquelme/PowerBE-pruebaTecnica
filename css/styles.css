@@ -2,8 +2,18 @@
 :root {
     --primary-blue: #3877F6;
     --sky: #61CFFA;
+    --white: #FFFFFF;
     --aside-general-navigation-width: 17%;
     --main-width: 83%;
+    --company-logo-size: 1.75rem;
+    --avatar-size: 3rem;
+    --avatar-bell: 1.063rem;
+    --plus-icon-size: 2.313rem;
+    --large-btn-padding-height: 0.625rem;
+    --large-btn-padding-width: 1rem;
+    --large-btn-width: 15.5rem;
+    --large-btn-height: 2.25rem;
+    --large-btn-border-radius: 0.25rem;
 }
 
 body {
@@ -17,7 +27,35 @@ aside.aside-general-navigation {
     background-image: linear-gradient(var(--primary-blue), var(--sky));
     width: var(--aside-general-navigation-width);
 }
+aside.aside-general-navigation #company-logo {
+    width: var(--company-logo-size);
+    height: var(--company-logo-size);
+}
+aside.aside-general-navigation .user-avatar #user-avatar-img {
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+}
+aside.aside-general-navigation .user-avatar #user-avatar-bell {
+    width: var(--avatar-bell);
+    height: var(--avatar-bell);
+}
 
 main {
     width: var(--main-width);
+}
+
+main #main-content .aside-main-navigation #plus-icon {
+    width: var(--plus-icon-size);
+    height: var(--plus-icon-size);
+}
+
+.large-button {
+    padding: var(--large-btn-padding-height) var(--large-btn-padding-width);
+    height: var(--large-btn-height);
+    width: var(--large-btn-width);
+    background-color: var(--primary-blue);
+    color: var(--white);
+    text-decoration: none;
+    border: none;
+    border-radius: var(--large-btn-border-radius);
 }
