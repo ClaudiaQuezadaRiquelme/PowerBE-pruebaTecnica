@@ -2,14 +2,22 @@
 :root {
     --primary-blue: #3877F6;
     --sky: #61CFFA;
+    --aside-general-navigation-width: 17%;
+    --main-width: 83%;
 }
 
 body {
     margin: 0;
     padding: 0;
     display: flex;
+    height: 100vh;
 }
 
 aside.aside-general-navigation {
     background-image: linear-gradient(var(--primary-blue), var(--sky));
+    width: var(--aside-general-navigation-width);
+}
+
+main {
+    width: var(--main-width);
 }
