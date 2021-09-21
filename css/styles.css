@@ -1,0 +1,9 @@
+
+:root {
+    --primary-blue: #3877F6;
+    --sky: #61CFFA;
+}
+
+aside.aside-general-navigation {
+    background-image: linear-gradient(var(--primary-blue), var(--sky));
+}
