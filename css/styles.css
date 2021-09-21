@@ -4,6 +4,12 @@
     --sky: #61CFFA;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
 aside.aside-general-navigation {
     background-image: linear-gradient(var(--primary-blue), var(--sky));
 }
