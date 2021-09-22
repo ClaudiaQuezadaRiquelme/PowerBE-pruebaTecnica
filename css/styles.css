@@ -45,6 +45,7 @@
     --tab-info-content-menu-scroll-margin: 3rem 1.25rem 0 1.25rem;
     --footer-padding: 2.125rem 0;
     --large-btn-padding: 0.625rem 1rem;
+    --large-btn-bottom: 2.125rem;
     --large-btn-width: 15.5rem;
     --large-btn-height: 2.25rem;
     --large-btn-border-radius: 0.25rem;
@@ -59,18 +60,21 @@ body {
 
 main {
     width: var(--main-width);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 footer {
     position: relative;
     padding: var(--footer-padding);
-    bottom: 0;
 }
 
 footer button.large-button {
     position: absolute;
     left: 26.5rem;
     padding: var(--large-btn-padding);
+    bottom: var(--large-btn-bottom);
     height: var(--large-btn-height);
     width: var(--large-btn-width);
     background-color: var(--primary-blue);
