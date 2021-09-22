@@ -50,6 +50,8 @@ main #main-content .tab-info .tab-content .menu-scroll {
 }
 main #main-content .tab-info .tab-content .menu-scroll h3 {
     margin: 0;
+    background-color: var(--blue-gray-2);
+    cursor: pointer;
 }
 main #main-content .tab-info .tab-content ul.check-menu {
     column-count: 2;
@@ -57,4 +59,11 @@ main #main-content .tab-info .tab-content ul.check-menu {
 }
 main #main-content .tab-info .tab-content form.form-menu {
     column-count: 2;
+    position: absolute;
+    overflow: auto;
+    z-index: 1;
+}
+
+#place-and-contact-form {
+    display: none;
 }
