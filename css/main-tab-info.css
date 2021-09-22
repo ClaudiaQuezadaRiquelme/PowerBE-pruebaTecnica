@@ -62,6 +62,11 @@ main #main-content .tab-info .tab-content form.form-menu {
     position: absolute;
     overflow: auto;
     z-index: 1;
+    background-color: var(--white);
+}
+main #main-content .tab-info .tab-content form.form-menu .form-menu-input {
+    height: var(--form-menu-input-height);
+    width: var(--form-menu-input-width);
 }
 
 #place-and-contact-form {
