@@ -33,6 +33,7 @@ aside.aside-general-navigation .user-avatar #user-avatar-bell {
     position: absolute;
     top: 0;
     right: var(--avatar-bell-position-right);
+    left: 52%;
 }
 aside.aside-general-navigation .user-avatar #user-avatar-text {
     font-size: var(--avatar-text-size);
