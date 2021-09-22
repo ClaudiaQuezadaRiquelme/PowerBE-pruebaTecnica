@@ -4,6 +4,8 @@ main #main-content .aside-main-navigation {
 }
 main #main-content .aside-main-navigation #plus-icon {
     position: absolute;
+    width: var(--plus-icon-size);
+    height: var(--plus-icon-size);
     left: var(--aside-main-navigation-plus-icon-left);
     right: var(--aside-main-navigation-plus-icon-right); 
     bottom: 0;

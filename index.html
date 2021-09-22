@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/aside-navs.css">
     <link rel="stylesheet" href="/css/main-header.css">
     <link rel="stylesheet" href="/css/aside-main-navs.css">
+    <link rel="stylesheet" href="/css/main-tab-info.css">
 </head>
 <body>
     <aside class="aside-general-navigation">
@@ -87,22 +88,36 @@
                 </nav>
                 <div class="tab-content">
                     <p>Selecciona el país</p>
-                    <ul>
-                        <li>País</li>
+                    <button class="country-menu-btn">País</button>
+                    <ul class="country-menu">
+                        <li>Chile</li>
+                        <li>Perú</li>
+                        <li>Colombia</li>
+                        <li>México</li>
+                        <li>Brasil</li>
                     </ul>
-                    <h3>Tipo de canal</h3>
-                    <ul>
-                        <li>Presencial</li>
-                        <li>Web</li>
-                        <li>Telefónico</li>
-                        <li>Agentes</li>
-                        <li>Supervisores</li>
-                        <li>Canales internos</li>
-                        <li>Referidos</li>
-                        <li>Otro</li>
+                    <div class="menu-scroll"><h3>Tipo de canal</h3></div>
+                    <ul class="check-menu">
+                        <li><input type="checkbox" name="Presencial" value="Presencial">Presencial</li>
+                        <li><input type="checkbox" name="Web" value="Web">Web</li>
+                        <li><input type="checkbox" name="Telefonico" value="Telefonico">Telefónico</li>
+                        <li><input type="checkbox" name="Agentes" value="Agentes">Agentes</li>
+                        <li><input type="checkbox" name="Supervisores" value="Supervisores">Supervisores</li>
+                        <li><input type="checkbox" name="canalesInternos" value="canalesInternos">Canales internos</li>
+                        <li><input type="checkbox" name="Referidos" value="Referidos">Referidos</li>
+                        <li><input type="checkbox" name="Otro" value="Otro">Otro</li>
                     </ul>
                     <hr>
-                    <h3>Ubicación y contacto</h3>
+                    <div class="menu-scroll"><h3>Ubicación y contacto</h3></div>
+                    <form action="" class="form-menu">
+                        <label for="direccion">Dirección física</label><br>
+                        <input type="text" id="direccion" name="direccion" value="Salazar Izrael - Departamental"><br>
+                        <p>Cuenta corriente</p>
+                        <label for="telefono">Teléfono</label><br>
+                        <input type="text" id="telefono" name="telefono" value="225628575"><br>
+                        <label for="numCuotas">Número de cuotas</label><br>
+                        <input type="text" id="numCuotas" name="numCuotas" value="11 / 12"><br>
+                      </form> 
                 </div>
             </div>
         </div>

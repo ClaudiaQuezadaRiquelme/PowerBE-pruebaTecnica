@@ -4,6 +4,7 @@
     --sky: #61CFFA;
     --white: #FFFFFF;
     --blue-gray-1: #DFE8F6;
+    --blue-gray-2: #F4F7FC;
     --aside-general-navigation-width: 17%;
     --aside-general-navigation-ul-padding: 0 0.5rem;
     --main-width: 83%;
@@ -40,6 +41,13 @@
     --aside-main-nav-channel-size: 0.875rem;
     --aside-main-nav-padding: 0.5rem;
     --aside-main-white-space-heigth: 5.375rem;
+    --tab-info-content-p-size: 0.875rem;
+    --tab-info-content-p-padding: 1.5rem 0 1.5rem 3.125rem;
+    --tab-info-content-country-menu-btn-margin: 0 0 0 3.125rem;
+    --tab-info-content-country-menu-btn-width: 26.25rem;
+    --tab-info-content-country-menu-btn-padding: 1.25rem 0;
+    --tab-info-content-menu-scroll-size: 1.25rem;
+    --tab-info-content-menu-scroll-margin: 3rem 1.25rem 0 1.25rem;
 }
 
 body {
@@ -51,32 +59,6 @@ body {
 
 main {
     width: var(--main-width);
-}
-
-main #main-content {
-    display: flex;
-}
-
-main #main-content .aside-main-navigation #plus-icon {
-    width: var(--plus-icon-size);
-    height: var(--plus-icon-size);
-}
-
-main #main-content .tab-info .tab-nav ul {
-    display: flex;
-    list-style-type: none;
-}
-
-main #main-content .tab-info .tab-nav ul li {
-    padding: 
-        var(--tab-info-nav-padding-top-bottom)
-        var(--tab-info-nav-padding-right)
-        var(--tab-info-nav-padding-top-bottom)
-        var(--tab-info-nav-padding-left);
-    border-top-style: solid;
-    border-right-style: solid;
-    border-left-style: solid;
-    border-radius: var(--tab-info-nav-border-radius);
 }
 
 .large-button {
