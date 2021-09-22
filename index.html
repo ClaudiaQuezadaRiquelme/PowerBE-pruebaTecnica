@@ -17,22 +17,29 @@
         <div class="user-avatar">
             <img id="user-avatar-img"  src="/img/avatar.png" alt="avatar del usuario conectado">
             <img id="user-avatar-bell" src="/img/bell.png" alt="campana de aviso">
-            <h4 id="user-avatar-text">Nombre usuario(a)</h4>
+            <p id="user-avatar-text">Nombre usuario(a)</p>
         </div>
-        <hr>
-        <nav id="general-navigation">
-            <ul>
-                <li>Sección 1</li>
-                <li>Sección 2</li>
-            </ul>
-        </nav>
-        <hr>
-        <nav id="help-navigation">
-            <ul>
-                <li>Ayuda</li>
-                <li>Ajustes</li>
-            </ul>
-        </nav>
+        <hr class="aside-general-hr">
+        <div class="aside-nav-container">
+            <div class="navigation-container">
+                <nav id="general-navigation">
+                    <ul>
+                        <li class="active"><img class="general-nav-icon" src="/img/home.png" alt="home-icon"> Home</li>
+                        <li><img class="general-nav-icon" src="/img/search.png" alt="search-icon"> Sección 1</li>
+                        <li><img class="general-nav-icon" src="/img/team.png" alt="team-icon"> Sección 2</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="navigation-container">
+                <hr class="aside-general-hr">
+                <nav id="help-navigation">
+                    <ul>
+                        <li><img class="help-nav-icon" src="/img/help.png" alt="home-icon"> Ayuda</li>
+                        <li><img class="help-nav-icon" src="/img/tools.png" alt="home-icon"> Ajustes</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </aside>
     <main>
         <header>

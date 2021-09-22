@@ -4,6 +4,7 @@
     --sky: #61CFFA;
     --white: #FFFFFF;
     --aside-general-navigation-width: 17%;
+    --aside-general-navigation-ul-padding: 0 0.5rem;
     --main-width: 83%;
     --company-logo-size: 1.75rem;
     --company-logo-padding: 0.688rem;
@@ -12,6 +13,10 @@
     --avatar-bell: 1.063rem;
     --avatar-bell-position-right: 7.25rem;
     --avatar-text-size: 0.875rem;
+    --general-nav-icon-size: 1.25rem;
+    --general-nav-padding-height: 1.5rem;
+    --general-nav-padding-left: 0.563rem;
+    --general-nav-active-border-radius: 0.5rem;
     --plus-icon-size: 2.313rem;
     --large-btn-padding-height: 0.625rem;
     --large-btn-padding-width: 1rem;
