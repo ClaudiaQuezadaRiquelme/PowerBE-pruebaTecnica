@@ -2,9 +2,15 @@ main #main-content {
     display: flex;
 }
 
+main #main-content .tab-info {
+    margin-bottom: var(--main-margin-bottom);
+}
+
 main #main-content .tab-info .tab-nav ul {
     display: flex;
     list-style-type: none;
+    margin-bottom: unset;
+    padding-left: unset;
 }
 
 main #main-content .tab-info .tab-nav ul li {
@@ -13,10 +19,28 @@ main #main-content .tab-info .tab-nav ul li {
         var(--tab-info-nav-padding-right)
         var(--tab-info-nav-padding-top-bottom)
         var(--tab-info-nav-padding-left);
-    border-top-style: solid;
-    border-right-style: solid;
-    border-left-style: solid;
+    border-top-style:  solid;
+    border-right-style:  solid;
+    border-left-style:  solid;
+    border-bottom-style:  solid;
+    border-top-width: 0.031rem;
+    border-right-width: 0.031rem;
+    border-left-width: 0.031rem;
+    border-bottom-width: 0.031rem;
+    border-top-color: var(--gray-2);
+    border-right-color: var(--gray-2);
+    border-left-color: var(--gray-2);
+    border-bottom-color: var(--gray-2);
     border-radius: var(--tab-info-nav-border-radius);
+}
+
+main #main-content .tab-info .tab-nav ul li.active {
+    border-bottom: 0;
+}
+
+main #main-content .tab-info .tab-content {
+    border: 0.031rem solid var(--gray-2);
+    border-top: 0;
 }
 
 main #main-content .tab-info .tab-content p {
@@ -31,7 +55,7 @@ main #main-content .tab-info .tab-content .country-menu-btn {
     width: var(--tab-info-content-country-menu-btn-width);
     background-color: var(--blue-gray-2);
     border: 1px solid var(--gray-2);
-    border-radius: var(--form-menu-input-border-radius);
+    border-radius: var(--menu-border-radius);
     cursor: pointer;
 }
 main #main-content .tab-info .tab-content ul.country-menu {
@@ -40,9 +64,12 @@ main #main-content .tab-info .tab-content ul.country-menu {
     list-style-type: none;
     min-width: var(--tab-info-content-country-menu-btn-width);
     overflow: auto;
+    background-color: var(--white);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--menu-border-radius);
 }
 main #main-content .tab-info .tab-content ul.country-menu li {
-
+    padding: var(--tab-info-content-country-menu-btn-padding);
 }
 
 main #main-content .tab-info .tab-content .menu-scroll {
@@ -75,7 +102,7 @@ main #main-content .tab-info .tab-content form.form-menu {
 main #main-content .tab-info .tab-content form.form-menu .form-menu-input {
     height: var(--form-menu-input-height);
     width: var(--form-menu-input-width);
-    border-radius: var(--form-menu-input-border-radius);
+    border-radius: var(--menu-border-radius);
     background-color: var(--blue-gray-2);
     border: 1px solid var(--gray-2);
 }
