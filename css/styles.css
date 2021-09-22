@@ -9,7 +9,7 @@
     --aside-general-navigation-width: 17%;
     --aside-general-navigation-ul-padding: 0 0.5rem;
     --main-width: 83%;
-    --main-margin-bottom: 2.125rem;
+    --main-padding-bottom: 2.125rem;
     --company-logo-size: 1.75rem;
     --company-logo-padding: 0.688rem;
     --company-name-size: 0.75rem;
@@ -65,6 +65,10 @@ body {
     padding: 0;
     display: flex;
     height: 100vh;
+}
+
+body, main {
+    background-color: var(--blue-gray-2);
 }
 
 main {

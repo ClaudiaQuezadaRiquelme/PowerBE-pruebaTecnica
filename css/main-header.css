@@ -1,7 +1,11 @@
+main header nav#breadcrumb-header {
+    background-color: var(--white);
+}
 main header nav#breadcrumb-header ul {
     display: flex;
     list-style: none;
     padding: var(--breadcrumb-header-ul-padding);
+    margin-top: unset;
 }
 main header nav#breadcrumb-header ul li+li::before {
     content: ">";

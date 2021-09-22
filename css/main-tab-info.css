@@ -2,10 +2,6 @@ main #main-content {
     display: flex;
 }
 
-main #main-content .tab-info {
-    margin-bottom: var(--main-margin-bottom);
-}
-
 main #main-content .tab-info .tab-nav ul {
     display: flex;
     list-style-type: none;
@@ -32,6 +28,7 @@ main #main-content .tab-info .tab-nav ul li {
     border-left-color: var(--gray-2);
     border-bottom-color: var(--gray-2);
     border-radius: var(--tab-info-nav-border-radius);
+    background-color: var(--white);
 }
 
 main #main-content .tab-info .tab-nav ul li.active {
@@ -41,6 +38,8 @@ main #main-content .tab-info .tab-nav ul li.active {
 main #main-content .tab-info .tab-content {
     border: 0.031rem solid var(--gray-2);
     border-top: 0;
+    background-color: var(--white);
+    padding-bottom: var(--main-padding-bottom);
 }
 
 main #main-content .tab-info .tab-content p {

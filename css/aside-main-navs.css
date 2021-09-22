@@ -1,6 +1,7 @@
 main #main-content .aside-main-navigation {
     width: var(--aside-main-navigation-width);
     position: relative;
+    background-color: var(--white);
 }
 main #main-content .aside-main-navigation #plus-icon {
     position: absolute;
@@ -13,6 +14,7 @@ main #main-content .aside-main-navigation #plus-icon {
 }
 main #main-content .aside-main-white-space {
     height: var(--aside-main-white-space-heigth);
+    background-color: var(--blue-gray-2);
 }
 main #main-content .aside-main-navigation .aside-main-nav-channel {
     margin: 0;
