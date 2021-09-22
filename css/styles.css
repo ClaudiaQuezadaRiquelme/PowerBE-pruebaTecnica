@@ -27,6 +27,10 @@
     --tab-info-nav-padding-right: 2.5rem;
     --tab-info-nav-padding-left: 0.5rem;
     --tab-info-nav-border-radius: 0.313rem 0.313rem 0 0;
+    --breadcrumb-header-ul-padding: 0.688rem 0 0.688rem 1.5rem;
+    --breadcrumb-header-before-padding: 0.5rem;
+    --header-h1-size: 1.5rem;
+    --header-h1-padding: 1.5rem;
 }
 
 body {

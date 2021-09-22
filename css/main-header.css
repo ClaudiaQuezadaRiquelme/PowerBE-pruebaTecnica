@@ -1,0 +1,13 @@
+main header nav#breadcrumb-header ul {
+    display: flex;
+    list-style: none;
+    padding: var(--breadcrumb-header-ul-padding);
+}
+main header nav#breadcrumb-header ul li+li::before {
+    content: ">";
+    padding: var(--breadcrumb-header-before-padding);
+}
+main header h1 {
+    font-size: var(--header-h1-size);
+    padding: var(--header-h1-padding);
+}
