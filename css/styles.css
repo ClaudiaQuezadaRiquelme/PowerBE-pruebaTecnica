@@ -6,8 +6,12 @@
     --aside-general-navigation-width: 17%;
     --main-width: 83%;
     --company-logo-size: 1.75rem;
+    --company-logo-padding: 0.688rem;
+    --company-name-size: 0.75rem;
     --avatar-size: 3rem;
     --avatar-bell: 1.063rem;
+    --avatar-bell-position-right: 7.25rem;
+    --avatar-text-size: 0.875rem;
     --plus-icon-size: 2.313rem;
     --large-btn-padding-height: 0.625rem;
     --large-btn-padding-width: 1rem;
@@ -25,23 +29,6 @@ body {
     padding: 0;
     display: flex;
     height: 100vh;
-}
-
-aside.aside-general-navigation {
-    background-image: linear-gradient(var(--primary-blue), var(--sky));
-    width: var(--aside-general-navigation-width);
-}
-aside.aside-general-navigation #company-logo {
-    width: var(--company-logo-size);
-    height: var(--company-logo-size);
-}
-aside.aside-general-navigation .user-avatar #user-avatar-img {
-    width: var(--avatar-size);
-    height: var(--avatar-size);
-}
-aside.aside-general-navigation .user-avatar #user-avatar-bell {
-    width: var(--avatar-bell);
-    height: var(--avatar-bell);
 }
 
 main {

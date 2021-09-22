@@ -1,0 +1,40 @@
+aside.aside-general-navigation {
+    background-image: linear-gradient(var(--primary-blue), var(--sky));
+    width: var(--aside-general-navigation-width);
+    color: var(--white);
+}
+aside.aside-general-navigation #company-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--company-name-size);
+}
+aside.aside-general-navigation #company-logo {
+    width: var(--company-logo-size);
+    height: var(--company-logo-size);
+    padding-right: var(--company-logo-padding);
+}
+aside.aside-general-navigation .user-avatar {
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+aside.aside-general-navigation .user-avatar #user-avatar-img {
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+aside.aside-general-navigation .user-avatar #user-avatar-bell {
+    width: var(--avatar-bell);
+    height: var(--avatar-bell);
+    position: absolute;
+    top: 0;
+    right: var(--avatar-bell-position-right);
+}
+aside.aside-general-navigation .user-avatar #user-avatar-text {
+    font-size: var(--avatar-text-size);
+}
+
