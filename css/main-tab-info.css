@@ -57,16 +57,26 @@ main #main-content .tab-info .tab-content ul.check-menu {
     column-count: 2;
     list-style-type: none;
 }
+main #main-content .tab-info .tab-content ul.check-menu li {
+    padding: var(--check-menu-li-padding);
+}
+main #main-content .tab-info .tab-content ul.check-menu li input {
+    margin: var(--check-menu-li-input-margin);
+}
 main #main-content .tab-info .tab-content form.form-menu {
     column-count: 2;
     position: absolute;
     overflow: auto;
     z-index: 1;
     background-color: var(--white);
+    width: var(--form-menu-width);
 }
 main #main-content .tab-info .tab-content form.form-menu .form-menu-input {
     height: var(--form-menu-input-height);
     width: var(--form-menu-input-width);
+    border-radius: var(--form-menu-input-border-radius);
+    background-color: var(--blue-gray-2);
+    border: 1px solid var(--gray-2);
 }
 
 #place-and-contact-form {
