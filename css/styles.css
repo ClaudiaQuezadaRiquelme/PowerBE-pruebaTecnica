@@ -20,11 +20,6 @@
     --general-nav-padding-left: 0.563rem;
     --general-nav-active-border-radius: 0.5rem;
     --plus-icon-size: 2.313rem;
-    --large-btn-padding-height: 0.625rem;
-    --large-btn-padding-width: 1rem;
-    --large-btn-width: 15.5rem;
-    --large-btn-height: 2.25rem;
-    --large-btn-border-radius: 0.25rem;
     --tab-info-nav-padding-top-bottom: 1.25rem;
     --tab-info-nav-padding-right: 2.5rem;
     --tab-info-nav-padding-left: 0.5rem;
@@ -48,6 +43,11 @@
     --tab-info-content-country-menu-btn-padding: 1.25rem 0;
     --tab-info-content-menu-scroll-size: 1.25rem;
     --tab-info-content-menu-scroll-margin: 3rem 1.25rem 0 1.25rem;
+    --footer-padding: 2.125rem 0;
+    --large-btn-padding: 0.625rem 1rem;
+    --large-btn-width: 15.5rem;
+    --large-btn-height: 2.25rem;
+    --large-btn-border-radius: 0.25rem;
 }
 
 body {
@@ -61,8 +61,15 @@ main {
     width: var(--main-width);
 }
 
-.large-button {
-    padding: var(--large-btn-padding-height) var(--large-btn-padding-width);
+footer {
+    position: relative;
+    padding: var(--footer-padding);
+}
+
+footer button.large-button {
+    position: absolute;
+    left: 26.5rem;
+    padding: var(--large-btn-padding);
     height: var(--large-btn-height);
     width: var(--large-btn-width);
     background-color: var(--primary-blue);
