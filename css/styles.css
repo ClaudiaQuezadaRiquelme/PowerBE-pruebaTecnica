@@ -14,6 +14,10 @@
     --large-btn-width: 15.5rem;
     --large-btn-height: 2.25rem;
     --large-btn-border-radius: 0.25rem;
+    --tab-info-nav-padding-top-bottom: 1.25rem;
+    --tab-info-nav-padding-right: 2.5rem;
+    --tab-info-nav-padding-left: 0.5rem;
+    --tab-info-nav-border-radius: 0.313rem 0.313rem 0 0;
 }
 
 body {
@@ -47,6 +51,23 @@ main {
 main #main-content .aside-main-navigation #plus-icon {
     width: var(--plus-icon-size);
     height: var(--plus-icon-size);
+}
+
+main #main-content .tab-info .tab-nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+main #main-content .tab-info .tab-nav ul li {
+    padding: 
+        var(--tab-info-nav-padding-top-bottom)
+        var(--tab-info-nav-padding-right)
+        var(--tab-info-nav-padding-top-bottom)
+        var(--tab-info-nav-padding-left);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-radius: var(--tab-info-nav-border-radius);
 }
 
 .large-button {
