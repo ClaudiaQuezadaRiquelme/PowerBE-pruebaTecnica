@@ -1,0 +1,31 @@
+main #main-content .aside-main-navigation {
+    width: var(--aside-main-navigation-width);
+    position: relative;
+}
+main #main-content .aside-main-navigation #plus-icon {
+    position: absolute;
+    left: var(--aside-main-navigation-plus-icon-left);
+    right: var(--aside-main-navigation-plus-icon-right); 
+    bottom: 0;
+    padding: var(--aside-main-navigation-plus-icon-padding);
+}
+main #main-content .aside-main-white-space {
+    height: var(--aside-main-white-space-heigth);
+}
+main #main-content .aside-main-navigation .aside-main-nav-channel {
+    margin: 0;
+    background-color: var(--blue-gray-1);
+    padding: var(--aside-main-navigation-padding-left);
+    font-size: var(--aside-main-nav-channel-size);
+}
+main #main-content .aside-main-navigation .aside-main-nav,
+main #main-content .aside-main-navigation .aside-main-sub-nav {
+    list-style-type: none;
+}
+main #main-content .aside-main-navigation .aside-main-nav {
+    padding-left: var(--aside-main-navigation-padding-left);
+}
+main #main-content .aside-main-navigation .aside-main-nav li,
+main #main-content .aside-main-navigation .aside-main-sub-nav li {
+    padding: var(--aside-main-nav-padding) 0;
+}

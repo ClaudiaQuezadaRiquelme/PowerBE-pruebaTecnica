@@ -3,6 +3,7 @@
     --primary-blue: #3877F6;
     --sky: #61CFFA;
     --white: #FFFFFF;
+    --blue-gray-1: #DFE8F6;
     --aside-general-navigation-width: 17%;
     --aside-general-navigation-ul-padding: 0 0.5rem;
     --main-width: 83%;
@@ -31,6 +32,14 @@
     --breadcrumb-header-before-padding: 0.5rem;
     --header-h1-size: 1.5rem;
     --header-h1-padding: 1.5rem;
+    --aside-main-navigation-width: 17%;
+    --aside-main-navigation-padding-left: 0.5rem;
+    --aside-main-navigation-plus-icon-padding: 0 3.226rem 1.976rem 3.226rem;
+    --aside-main-navigation-plus-icon-left: 20%;
+    --aside-main-navigation-plus-icon-right: 30%;
+    --aside-main-nav-channel-size: 0.875rem;
+    --aside-main-nav-padding: 0.5rem;
+    --aside-main-white-space-heigth: 5.375rem;
 }
 
 body {
@@ -42,6 +51,10 @@ body {
 
 main {
     width: var(--main-width);
+}
+
+main #main-content {
+    display: flex;
 }
 
 main #main-content .aside-main-navigation #plus-icon {
